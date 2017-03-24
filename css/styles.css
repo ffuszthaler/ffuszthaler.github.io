@@ -1,3 +1,16 @@
 h1 {
-	font-family: arial;
+	font-family: 'Space Mono', monospace;
+	font-size: 200%;
+}
+
+a, a:active {
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover, a:focus {
+    font-family: 'Space Mono', monospace;
+    text-decoration: underline;
+    color: #000000;
 }
