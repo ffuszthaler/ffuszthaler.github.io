@@ -1,51 +1,86 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html class="no-js" lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hey you!</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/uikit.min.css" />
-  <script src="js/uikit.min.js"></script>
-  <script src="js/uikit-icons.min.js"></script>
-  
-</head>
-<body>
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-  <br>
-  <br>
-  <br>
-  <br>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/uikit.min.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-  <div class="uk-flex uk-flex-center">
-    <div class="uk-card uk-card-default uk-card-body"><a href="https://www.youtube.com/channel/UCfl20CmiXB-ADoa1Qy8q_wA" target="_blank" uk-icon="icon: youtube"></a></div>
+        <!-- Add your site or application content here -->
+        <div class="uk-position-relative">
+            <!-- <img style="background-size:cover; background-position: center" src="img/coffee.jpg" alt=""> -->
+            <div class="uk-position-top">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="index.html"><u>ffuszthaler</u></a></li>
+                            <li><a href="https://github.com/ffuszthaler" target="_blank">Github</a></li>
+                            <li><a href="https://twitter.com/crezantix" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/flo_war_hier/" target="_blank">Instagram</a></li>
+                            <li><a href="https://youtube.com/c/Crezantix" target="_blank">YouTube</a></li>
+                            <li><a href="http://flo-was-here.tumblr.com/" target="_blank">Tumblr</a></li>
+                            <li>
+                                <a href="#">Stuff</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="https://github.com/ffuszthaler/Piscis" target="_blank">Piscis</a></li>
+                                        <li><a href="https://github.com/ffuszthaler/PiscisApp" target="_blank">Piscis Android App</a></li>
+                                        <li><a href="https://github.com/ffuszthaler/dotfiles" target="_blank">My Dotfiles</a></li>
+                                        <li><a href="https://github.com/ffuszthaler/ffuszthaler.github.io" target="_blank">Sourcecode of this Page</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
-    <div class="uk-card uk-card-default uk-card-body uk-margin-left"><a href="https://twitter.com/crezantix" target="_blank" uk-icon="icon: twitter"></a></div>
+        <div id="quote1" class="ffuszthaler-greeting uk-position-center-left">
+            <h3 class="uk-heading-bullet">Hi There!</h3>
+            <h6>Welcome to my GitHub Page! My name is Florian.</h6>
+            <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip">About Me</button>
+        </div>
 
-    <div class="uk-card uk-card-default uk-card-body uk-margin-left"><a href="https://github.com/ffuszthaler" target="_blank" uk-icon="icon: github"></a></span></div>
+        <div class="uk-offcanvas-content">
+            <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                <div class="uk-offcanvas-bar">
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                    <h3>It´s Me!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="uk-card uk-card-default uk-card-body uk-margin-left"><a href="https://www.instagram.com/flo_war_hier" target="_blank" uk-icon="icon: instagram"></a></span></div>
+        
 
-    <div class="uk-card uk-card-default uk-card-body uk-margin-left"><a href="https://soundcloud.com/florianfusi" target="_blank" uk-icon="icon: soundcloud"></a></span></div>
+        <script src="js/vendor/uikit.min.js"></script>
+        <script src="js/vendor/uikit-icons.min.js"></script>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
-    <div class="uk-card uk-card-default uk-card-body uk-margin-left"><a href="https://plus.google.com/105982684400463964243" target="_blank" uk-icon="icon: google-plus"></a></span></div>
-  </div>
-
-  <br>
-  <br>
-
-  <div class="uk-card uk-card-default uk-card-small">
-  	<div class="uk-text-center uk-card-body">
-      Hi there, welcome to my github page!
-  	</div>
-  </div>
-
-  <br>
-  <br>
-
-  <div class="uk-flex uk-flex-center">
-    <div class="uk-card uk-card-default uk-card-body uk-margin-left"><a href="https://ffuszthaler.github.io/Piscis/landing.html" target="_blank" uk-icon="icon:">Piscis</a></span></div>
-  </div>
-
-</body>
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
 </html>
